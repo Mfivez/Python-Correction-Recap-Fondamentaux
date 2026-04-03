@@ -22,7 +22,6 @@ def afficher_bibliotheque(biblio):
         etat = "disponible" if livre["disponible"] else "emprunté"
         print(f"{index}. {livre['titre']} - {livre['auteur']} [{etat}]")
 
-
 def rechercher_livre(biblio, titre):
     """
     Recherche un livre dans la bibliothèque par son titre.
@@ -41,7 +40,6 @@ def rechercher_livre(biblio, titre):
             return livre
         
     return None
-
 
 def emprunter_livre(biblio, titre):
     """
@@ -70,7 +68,6 @@ def emprunter_livre(biblio, titre):
 
     print(f"Le livre '{livre['titre']}' a bien été emprunté.")
 
-
 def retourner_livre(biblio, titre):
     """
     Permet de retourner un livre emprunté.
@@ -98,7 +95,6 @@ def retourner_livre(biblio, titre):
     
     print(f"Le livre '{livre['titre']}' a bien été retourné.")
 
-
 def compter_livres(biblio):
     """
     Compte le nombre total de livres et le nombre de livres disponibles.
@@ -116,7 +112,6 @@ def compter_livres(biblio):
             disponibles += 1
 
     return total, disponibles
-
 
 def suggestion_lecture(biblio):
     """

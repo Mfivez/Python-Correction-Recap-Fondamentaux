@@ -8,7 +8,6 @@ from library import (
     suggestion_lecture,
 )
 
-
 def afficher_menu():
     """
     Affiche le menu principal de l'application.
