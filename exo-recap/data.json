@@ -1,0 +1,12 @@
+[
+    {
+        "titre": "Le Petit Prince",
+        "auteur": "Antoine de Saint-Exupéry",
+        "disponible": true
+    },
+    {
+        "titre": "Harry Potter à l'école des sorciers",
+        "auteur": "J.K. Rowling",
+        "disponible": true
+    }
+]
